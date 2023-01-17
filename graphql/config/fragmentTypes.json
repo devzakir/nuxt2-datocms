@@ -1,0 +1,186 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "FileFieldInterface",
+        "possibleTypes": [
+          {
+            "name": "FileField"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PostModelDescriptionLinksField",
+        "possibleTypes": [
+          {
+            "name": "PostRecord"
+          },
+          {
+            "name": "ProductRecord"
+          },
+          {
+            "name": "TagRecord"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "ProductModelContentsField",
+        "possibleTypes": [
+          {
+            "name": "ExclusivefeatureRecord"
+          },
+          {
+            "name": "FeaturescreenshotRecord"
+          },
+          {
+            "name": "GroupfeaturesectionRecord"
+          },
+          {
+            "name": "HerosectionRecord"
+          },
+          {
+            "name": "PriceplanRecord"
+          },
+          {
+            "name": "ProductctaRecord"
+          },
+          {
+            "name": "TechnologySectionRecord"
+          },
+          {
+            "name": "TestimonialSectionRecord"
+          },
+          {
+            "name": "TopfeatureRecord"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "RecordInterface",
+        "possibleTypes": [
+          {
+            "name": "BenefitRecord"
+          },
+          {
+            "name": "ButtonRecord"
+          },
+          {
+            "name": "CategoryRecord"
+          },
+          {
+            "name": "CounterRecord"
+          },
+          {
+            "name": "CustomerSupportRecord"
+          },
+          {
+            "name": "DefaultfeatureRecord"
+          },
+          {
+            "name": "ExclusivefeatureRecord"
+          },
+          {
+            "name": "ExtraofferRecord"
+          },
+          {
+            "name": "FeatureRecord"
+          },
+          {
+            "name": "FeaturescreenshotRecord"
+          },
+          {
+            "name": "FooterRecord"
+          },
+          {
+            "name": "FootermenuitemRecord"
+          },
+          {
+            "name": "GlobalRecord"
+          },
+          {
+            "name": "GroupfeatureitemRecord"
+          },
+          {
+            "name": "GroupfeaturesectionRecord"
+          },
+          {
+            "name": "HerosectionRecord"
+          },
+          {
+            "name": "HomepageRecord"
+          },
+          {
+            "name": "LinkRecord"
+          },
+          {
+            "name": "MenuitemRecord"
+          },
+          {
+            "name": "NewsletterRecord"
+          },
+          {
+            "name": "NoticeRecord"
+          },
+          {
+            "name": "PlanBenefitRecord"
+          },
+          {
+            "name": "PlanRecord"
+          },
+          {
+            "name": "PostRecord"
+          },
+          {
+            "name": "PriceplanRecord"
+          },
+          {
+            "name": "ProductRecord"
+          },
+          {
+            "name": "ProductctaRecord"
+          },
+          {
+            "name": "ProductplanRecord"
+          },
+          {
+            "name": "SectionRecord"
+          },
+          {
+            "name": "SeoRecord"
+          },
+          {
+            "name": "SocialRecord"
+          },
+          {
+            "name": "SupportplanRecord"
+          },
+          {
+            "name": "TagRecord"
+          },
+          {
+            "name": "TechnologyRecord"
+          },
+          {
+            "name": "TechnologySectionRecord"
+          },
+          {
+            "name": "TestimonialRecord"
+          },
+          {
+            "name": "TestimonialSectionRecord"
+          },
+          {
+            "name": "TopfeatureRecord"
+          },
+          {
+            "name": "WhyussectionRecord"
+          }
+        ]
+      }
+    ]
+  }
+}
