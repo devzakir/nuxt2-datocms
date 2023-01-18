@@ -112,5 +112,13 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, ctx) {
+      // See: https://github.com/intlify/vue-i18n-composable/issues/9#issuecomment-896148733
+      config.module.rules.push({
+        test: /\.mjs$/,
+        type: 'javascript/auto'
+      });
+    }
+  },
 };
